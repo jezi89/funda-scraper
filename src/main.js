@@ -16,8 +16,8 @@ const houses = [];
 const { CHAT_ID, BOT_API } = process.env;
 
 const urls = [
-    'https://www.funda.nl/en/koop/amsterdam/beschikbaar/0-300000/40+woonopp/2+slaapkamers/1-dag/',
-    'https://www.funda.nl/en/koop/haarlem/beschikbaar/0-300000/40+woonopp/2+slaapkamers/1-dag/',
+    'https://www.funda.nl/zoeken/huur?selected_area=%5B%222513,10km%22%5D&price=%221250-1750%22&exterior_space_type=%5B%22garden%22,%22terrace%22,%22balcony%22%5D&amenities=%5B%22bathtub%22%5D&floor_area=%2275-%22',
+    'https://www.funda.nl/zoeken/koop?selected_area=%5B%222513,10km%22%5D&exterior_space_type=%5B%22garden%22,%22terrace%22%5D&amenities=%5B%22bathtub%22%5D&floor_area=%22100-%22&price=%22350000-450000%22',
 ];
 
 const runTask = async () => {
